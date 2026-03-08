@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Brainrot Shop</title>
+</head>
+<body>
+
+<h1>Brainrot Shop</h1>
+
+<div>
+  <h2>Mega Brainrot</h2>
+  <img src="brainrot.jpg" width="200">
+  <p>Price: 5€</p>
+
+  <form action="/api/order" method="POST">
+    <input name="name" placeholder="Your name" required>
+    <br><br>
+    <input name="phone" placeholder="Phone / Viber" required>
+    <br><br>
+    <input type="hidden" name="product" value="Mega Brainrot">
+    <button type="submit">Order</button>
+  </form>
+</div>
+
+</body>
+</html>
